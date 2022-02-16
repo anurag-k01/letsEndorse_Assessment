@@ -53,7 +53,7 @@ function Interface() {
           <div>
             <label>Stage of business</label>
             <select
-              id="business_stage"
+            
               name="business_stage"
               onChange={(value) => getValue(value)}
             >
@@ -82,7 +82,7 @@ function Interface() {
           <div>
             <label>Offered to</label>
             <select
-              id="offerred_to"
+             
               name="offerred_to"
               onChange={(value) => offeredTo(value)}
             >
@@ -118,7 +118,7 @@ function Interface() {
           <div>
             <label>Skill training</label>
             <select
-              id="skill_training"
+              
               name="skill_training"
               onChange={(value) => selectSkill(value)}
             >
@@ -132,7 +132,7 @@ function Interface() {
           </div>
           <div>
             <label>Unique Selling Proposition</label>
-            <select id="usp" name="usp">
+            <select name="usp">
               <option value=""></option>
               <option value=""></option>
             </select>
@@ -140,7 +140,7 @@ function Interface() {
           <div>
             <label>Establishment type</label>
             <select
-              id="establishment_type"
+      
               name="establishment_type"
               onChange={(value) => setEstablishmentType(value.target.value)}
             >
@@ -170,7 +170,7 @@ function Interface() {
           <div>
             <label>Locality of business</label>
             <select
-              id="business_area"
+        
               name="business_area"
               onChange={(value) => setBusinessLocality(value.target.value)}
             >
@@ -183,7 +183,7 @@ function Interface() {
           <div>
             <label>Ownership of infrastructure</label>
             <select
-              id="business_locality"
+   
               name="business_locality"
               onChange={(value) => setInfraOwnership(value.target.value)}
             >
@@ -210,7 +210,7 @@ function Interface() {
           <div>
             <label>Market research</label>
             <select
-              id="market_research"
+            
               name="market_research"
               onChange={(value) => setMarketResearch(value.target.value)}
             >
@@ -223,7 +223,7 @@ function Interface() {
           <div>
             <label>Primary market</label>
             <select
-              id="primary_market"
+           
               name="primary_market"
               onChange={(value) => setPrimaryMarket(value.target.value)}
             >
@@ -240,7 +240,7 @@ function Interface() {
           <div>
             <label>Seasons of high sales</label>
             <select
-              id="seasonality"
+       
               onChange={(value) => setSeasonality(value.target.value)}
             >
          
@@ -261,7 +261,7 @@ function Interface() {
           <div>
             <label>Competition</label>
             <select
-              id="competiton"
+      
               name="competiton"
               onChange={(value) => setCompetiton(value.target.value)}
             >
